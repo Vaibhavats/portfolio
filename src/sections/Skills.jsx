@@ -4,32 +4,32 @@ const skillGroups = [
   {
     name: "Languages",
     icon: "{ }",
-    skills: ["Java", "Python", "C"],
+    skills: ["Java", "Python", "C++", "JavaScript", "SQL"],
   },
   {
-    name: "Backend",
+    name: "Web & Backend",
     icon: "⚙️",
-    skills: ["Spring Boot", "Node.js", "REST APIs"],
+    skills: ["React.js", "Node.js", "Express.js", "FastAPI", "REST APIs", "HTML5 / CSS3"],
   },
   {
-    name: "Testing & QA",
-    icon: "✅",
-    skills: ["Selenium", "TestNG", "JUnit", "Postman"],
-  },
-  {
-    name: "Database",
+    name: "Databases",
     icon: "🗄️",
-    skills: ["MySQL", "MongoDB", "SQL"],
+    skills: ["MongoDB", "MySQL"],
   },
   {
     name: "AI / ML",
     icon: "🧠",
-    skills: ["OpenCV", "Transformers", "NumPy", "scikit-learn"],
+    skills: ["PyTorch", "OpenCV", "scikit-learn", "NumPy", "LangChain", "Hugging Face Transformers", "Ollama"],
   },
   {
-    name: "Tools & DevOps",
+    name: "Testing & QA",
+    icon: "✅",
+    skills: ["Selenium", "TestNG", "Maven", "Extent Reports"],
+  },
+  {
+    name: "Tools & Cloud",
     icon: "🛠",
-    skills: ["Git", "Maven", "GitHub Actions", "Linux"],
+    skills: ["Git", "GitHub", "Docker", "AWS (Cloud Essentials)", "CI/CD"],
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Skills() {
         <SectionTitle
           eyebrow="// tech stack"
           heading="Tools I work with"
-          subtext="A curated set of technologies I've shipped real projects with — not just tutorials."
+          subtext="A curated set of technologies I've used in real projects — not just tutorials."
         />
 
         <div className="skills-grid">

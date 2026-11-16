@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-badge fade-up-delay-1">
           <span className="hero-badge-dot" />
-          Open to opportunities
+          Open to internships &amp; full-time roles (2027)
         </div>
 
         <h1 className="hero-name fade-up-delay-2">
@@ -16,17 +16,17 @@ export default function Hero() {
         </h1>
 
         <p className="hero-title fade-up-delay-3">
-          Software Engineer
+          CS (AI &amp; ML) Student
           <span style={{ color: "var(--text-muted)", margin: "0 0.35rem" }}>|</span>
           MERN
           <span style={{ color: "var(--text-muted)", margin: "0 0.35rem" }}>|</span>
-          AI + Automation 
+          AI + Automation
           <span className="hero-cursor" />
         </p>
 
         <p className="hero-tagline fade-up-delay-4">
-          I build intelligent systems, automate the tedious, and craft software that scales. 
-          Turning complex problems into clean, impactful engineering solutions.
+          4th-year B.Tech student building end-to-end software — from ML research
+          and LLM agents to full-stack apps and test automation.
         </p>
 
         <div className="hero-actions fade-up-delay-5">

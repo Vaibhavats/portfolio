@@ -9,10 +9,10 @@ export default function About() {
             <span className="about-initials">VK</span>
           </div>
           <div className="about-badge-floating">
-            <span className="badge-icon">💼</span>
+            <span className="badge-icon">🎓</span>
             <div>
-              <div className="badge-text">Available for hire</div>
-              <div className="badge-sub">Full-time / Contract</div>
+              <div className="badge-text">Graduating 2027</div>
+              <div className="badge-sub">Internships / Full-time</div>
             </div>
           </div>
         </div>
@@ -20,36 +20,38 @@ export default function About() {
         <div className="about-text">
           <SectionTitle
             eyebrow="// about me"
-            heading="Engineer by craft, problem-solver by nature"
+            heading="Student engineer, builder at heart"
           />
 
           <p>
-            I'm Vaibhav Kumar, a Software Engineer passionate about building at the 
-            intersection of AI, automation, and full-stack development. I thrive on turning 
-            ambiguous problems into clean, maintainable systems.
+            I'm Vaibhav Kumar, a 4th-year B.Tech student in Computer Science (AI &amp; ML) at
+            Graphic Era University, Dehradun. I like building at the intersection of machine
+            learning, full-stack development and test automation, and taking projects all
+            the way from idea to something that runs.
           </p>
           <p>
-            My experience spans Python-based computer vision, Java test automation at scale, 
-            and full-stack web development with the MERN stack. I care deeply about code 
-            quality, performance, and shipping things that actually matter.
+            This summer I worked as a Research Intern in Image Processing &amp; Computer
+            Vision in the Department of CSE at Graphic Era. My projects range from a Hybrid
+            CNN–ViT research paper and a local-LLM trip planner to a MERN chat app and a
+            Selenium/TestNG framework.
           </p>
           <p>
-            When I'm not engineering solutions, I'm exploring the latest in Transformer 
-            architectures, contributing to open source, or experimenting with new frameworks.
+            I also practise data structures and algorithms regularly, with 450+ problems
+            solved on LeetCode and a CodeChef DSA ranking of 1689.
           </p>
 
           <div className="about-stats">
             <div className="stat-item">
-              <span className="stat-number">3+</span>
-              <span className="stat-label">Years Coding</span>
+              <span className="stat-number">450+</span>
+              <span className="stat-label">LeetCode Problems</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">10+</span>
-              <span className="stat-label">Projects Built</span>
+              <span className="stat-number">1511</span>
+              <span className="stat-label">LeetCode Rating</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">5+</span>
-              <span className="stat-label">Tech Stacks</span>
+              <span className="stat-number">8.25</span>
+              <span className="stat-label">CGPA</span>
             </div>
           </div>
         </div>

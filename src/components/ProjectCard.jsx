@@ -18,17 +18,19 @@ export default function ProjectCard({ title, description, tags, icon, github, de
         <p className="project-description">{description}</p>
 
         <div className="project-footer">
-          <a
-            href={github || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            View on GitHub
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </a>
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View on GitHub
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          )}
           {demo && (
             <a
               href={demo}

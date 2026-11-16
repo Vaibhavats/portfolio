@@ -1,18 +1,39 @@
-Working Webpage : https://portfolio-kappa-five-82.vercel.app/
+# Vaibhav Kumar — Portfolio
 
-# React + Vite
+Personal portfolio of Vaibhav Kumar, a 4th-year B.Tech CS (AI & ML) student at Graphic Era University, Dehradun.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live site:** https://portfolio-kappa-five-82.vercel.app/
 
-Currently, two official plugins are available:
+## Sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Hero / About** — who I am, education, research internship, DSA stats
+- **Projects** — ML research, LLM agents, full-stack and test-automation work
+- **Skills** — languages, web, databases, AI/ML, testing and tools
+- **Contact** — email, GitHub, LinkedIn, LeetCode, CodeChef
 
-## React Compiler
+## Tech stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React 19, Vite, plain CSS (dark theme with CSS animations), ESLint. Deployed on Vercel.
 
-## Expanding the ESLint configuration
+## Project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+  components/   Navbar, Footer, ProjectCard, SectionTitle
+  sections/     Hero, About, Projects, Skills, Contact
+  data/         projects.js  (edit this to add or change projects)
+  index.css     global styles and theme variables
+```
+
+## Run locally
+
+```bash
+npm install
+npm run dev      # start the dev server
+npm run build    # production build into dist/
+npm run lint     # ESLint
+```
+
+## Adding a project
+
+Add an entry to `src/data/projects.js` with `title`, `description`, `tags`, `icon`, and optional `github` / `demo` URLs. Links that are `null` are simply not shown.
